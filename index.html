@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="main-menu">
+            <div class="dropdown">
+                <button class="dropbtn">Продукты</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li>
+                            <a class="menu-item" href="#">Дом <span class="more"></span>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
+                                    rerum id ea
+                                    tempora, quibusdam reprehenderit nesciunt deleniti quam a enim perferendis aut
+                                    corrupti
+                                    veniam officiis quo natus non in!</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="#">Электроника <span class="more"></span>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
+                                    rerum id ea
+                                    tempora, quibusdam reprehenderit nesciunt deleniti quam a enim perferendis aut
+                                    corrupti
+                                    veniam officiis quo natus non in!</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="#">Питомец<span class="more"></span>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
+                                    rerum id ea
+                                    tempora, quibusdam reprehenderit nesciunt deleniti quam a enim perferendis aut
+                                    corrupti
+                                    veniam officiis quo natus non in!</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="#">Книги<span class="more"></span>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
+                                    rerum id ea
+                                    tempora, quibusdam reprehenderit nesciunt deleniti quam a enim perferendis aut
+                                    corrupti
+                                    veniam officiis quo natus non in!</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu-item" href="#">Бытовые товары<span class="more"></span>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
+                                    rerum id ea
+                                    tempora, quibusdam reprehenderit nesciunt deleniti quam a enim perferendis aut
+                                    corrupti
+                                    veniam officiis quo natus non in!</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#about">О компании</a>
+            <div class="dropdown">
+                <button class="dropbtn">Доставка</button>
+                <div class="dropdown-content">
+                    <ul class="delivery-items">
+                        <p>Компания предлагает своим клиентам весь спектр способов доставки почтовых отправлений и
+                            грузов. Посылку можно отправить непосредственно в одном из отделений, или вызвать курьера,
+                            который заберет отправление. Забрать отправление также можно самостоятельно, в удобное
+                            время, в ближайшем отделении или курьер доставит вам посылку по указанному адресу.</p>
+                        <p>Для удобства, мы называем эти способы доставки следующим образом:</p>
+                        <li href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-arrow-down-short" viewBox="0 0 16 16"><path fill-rule="evenodd"d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" /></svg>
+                            Самовывоз
+                        </li>
+                        <li href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-arrow-down-short" viewBox="0 0 16 16"><path fill-rule="evenodd"d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" /></svg>
+                            Курьер
+                        </li>
+                        <li href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"class="bi bi-arrow-down-short" viewBox="0 0 16 16"><path fill-rule="evenodd"d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" /></svg>
+                            Доставка почтой
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <a class="login" href="#login">логин</a>
+    </nav>
+
+    <section class="banner">
+        <div class="left-side">
+            <h1>заголовок</h1>
+            <h3>подзаголовок</h3>
+            <button class="btn">кнопка</button>
+        </div>
+        <div onclick="openContent()" class="right-side">
+            <img src="img.jpeg" alt="">
+            <div id="image-content" class="content">
+                <p>надпись</p>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

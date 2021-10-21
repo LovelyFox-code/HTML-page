@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+body {
+  max-width: 1120px;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.login a {
+  float: right;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background: linear-gradient(21.92deg, #53d6c5 58.48%, #ffffff 106.2%);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content .more {
+  float: right;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.text {
+  display: none;
+  width: 30%;
+}
+a.menu-item:hover .text {
+  display: inline;
+}
+span.more::before {
+  content: "+";
+}
+a.menu-item:hover span.more::before {
+  content: "-";
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.delivery-items {
+  padding: 3%;
+}
+.delivery-items li:hover {
+  color: #53d6c5;
+}
+.banner {
+  display: flex;
+  align-content: center;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+.left-side {
+  width: 400px;
+  text-align: center;
+}
+
+.btn {
+  width: 50%;
+  background: linear-gradient(45.92deg, #53d6c5 15.48%, #ffffff 86.2%);
+  border-radius: 10px;
+  border: 1px solid #53d6c5;
+  padding: 3%;
+  cursor: pointer;
+}
+.btn:hover {
+  background: linear-gradient(21.92deg, #53d6c5 58.48%, #ffffff 106.2%);
+}
+.right-side {
+  width: 50%;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.right-side img {
+  vertical-align: middle;
+  width: 400px;
+  height: 400px;
+  padding-top: 5%;
+  cursor: pointer;
+}
+
+.right-side .content {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+      45.92deg,
+      rgb(17, 124, 111, 0.5) 15.48%,
+      rgb(178, 240, 232, 0.5) 86.2%
+    ),
+    rgb(196, 196, 196, 0);
+  color: #000;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+.content p {
+  margin-top: 40%;
+}
